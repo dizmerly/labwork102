@@ -67,7 +67,7 @@ else:
 if coefficient_C == 0:
    equation += " "      
 elif coefficient_C < 0:
-    equation += " - " + str(int(coefficient_C))
+    equation += " - " + str(int(math.fabs(coefficient_C))
 else:
     equation += " + " + str(int(coefficient_C))
 
