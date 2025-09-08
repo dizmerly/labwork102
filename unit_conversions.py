@@ -32,4 +32,3 @@ print(str(user_number), "atmospheres is equivalent to", str(atmo_kpasc), "kilopa
 print(str(user_number), "watts is equivalent to", str(watt_btu), "BTU per hour")
 print(str(user_number), "liters per second is equivalent to", str(liter_gallon), "US gallons per minute")
 print(str(user_number), "degrees Celsius is equivalent to", str(celsius_fahrenheit), "degrees Fahrenheit")
-
