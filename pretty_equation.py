@@ -46,34 +46,53 @@ else:
 
 
 #coefficient B
+if coefficient_A != 0:
+    if math.fabs(coefficient_B) == 1 or coefficient_B == 0:
+        if coefficient_B == 1:
+            equation += " + x"
+        elif coefficient_B == -1:
+            equation += " - x"
+    else:
+        if coefficient_B > 0:
+            equation += " + %sx" % str(int(coefficient_B))
+        else:
+            equation += " - %sx" % str(int(math.fabs(coefficient_B))) 
+else:
+    if math.fabs(coefficient_B) == 1 or coefficient_B == 0:
+        if coefficient_B == 1:
+            equation += "x"
+        elif coefficient_B == -1:
+            equation += "- x"
+    else:
+        if coefficient_B > 0:
+            equation += "%sx" % str(int(coefficient_B))
+        else:
+            equation += "- %sx" % str(int(math.fabs(coefficient_B))) 
 
-if math.fabs(coefficient_B) == 1 or coefficient_B == 0:
-    if coefficient_B == 1:
-        equation += " + x"
-    elif coefficient_B == -1:
-        equation += " - x"
-
+ 
 
 #If coefficient is positive, then add it, if coefficient is negative, then subtract it
-else:
-    if coefficient_B > 0:
-        equation += " + %sx" % str(int(coefficient_B))
-    else:
-        equation += " - %sx" % str(int(math.fabs(coefficient_B))) 
+
           
 #coefficient C
 
 
-if coefficient_C == 0:
-   equation += " "      
-elif coefficient_C < 0:
-    equation += " - " + str(int(math.fabs(coefficient_C)))
+
+if  coefficient_A != 0 and coefficient_B != 0:
+    if coefficient_C == 0:
+        equation += ""      
+    elif coefficient_C < 0:
+        equation += " - " + str(int(math.fabs(coefficient_C)))
+    else:
+        equation += " + " + str(int(coefficient_C))
 else:
-    equation += " + " + str(int(coefficient_C))
+    if coefficient_C == 0:
+        equation += ""      
+    elif coefficient_C < 0:
+        equation += " - " + str(int(math.fabs(coefficient_C)))
+    else:
+        equation += " + " + str(int(coefficient_C))
 
 
 print(equation, "= 0")
-
-
-
 
