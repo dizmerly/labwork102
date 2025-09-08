@@ -14,9 +14,9 @@
 
 import math
 
-coefficient_A = int(float(input("Please enter the coefficient A: \n")))
-coefficient_B = int(float(input("Please enter the coefficient B: \n")))
-coefficient_C = int(float(input("Please enter the coefficient C: \n")))
+coefficient_A = int(float(input("Please enter the coefficient A: ")))
+coefficient_B = int(float(input("Please enter the coefficient B: ")))
+coefficient_C = int(float(input("Please enter the coefficient C: ")))
 
 #Ax^2+Bx+C
 
