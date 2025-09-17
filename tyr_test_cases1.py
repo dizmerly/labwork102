@@ -167,10 +167,10 @@ sex:F age:75 cho:1 smo:N hdl:55 sbp:160 med:Y out:11
 
 # Indiviual Project
 #Female 20 year old SBP
-sex:F age:20 cho:120 smo:N hdl:55 sbp:115 med:Y out:<1 # -7 + 0 + 0 + 0 + 0
-sex:F age:20 cho:160 smo:N hdl:55 sbp:120 med:Y out:<1 # -7 + 1
-sex:F age:20 cho:201 smo:N hdl:55 sbp:130 med:Y out:<1 # -7 + 2
-sex:F age:20 cho:241 smo:N hdl:55 sbp:159 med:Y out:<1 # -7 + 3
+sex:F age:20 cho:120 smo:N hdl:55 sbp:115 med:Y out:<1
+sex:F age:20 cho:160 smo:N hdl:55 sbp:120 med:Y out:<1
+sex:F age:20 cho:201 smo:N hdl:55 sbp:130 med:Y out:<1
+sex:F age:20 cho:241 smo:N hdl:55 sbp:159 med:Y out:<1 
 sex:F age:20 cho:281 smo:N hdl:55 sbp:160 med:Y out:<1 # -7 + 4
 
 #Female 40 years Old
@@ -231,8 +231,8 @@ sex:F age:70 cho:221 smo:N hdl:55 sbp:1 med:Y out:<1 #0 + 1
 sex:F age:70 cho:241 smo:N hdl:55 sbp:1 med:Y out:<1 #0 + 1
 sex:F age:70 cho:281 smo:N hdl:55 sbp:1 med:Y out:<1 #0 + 1
 #Female 75 years Old
-sex:F age:75 cho:120 smo:N hdl:55 sbp:1 med:Y out:<1 #0 + 1
-sex:F age:75 cho:160 smo:N hdl:55 sbp:1 med:Y out:<1 #0 + 1
-sex:F age:75 cho:221 smo:N hdl:55 sbp:1 med:Y out:<1 #0 + 1
-sex:F age:75 cho:241 smo:N hdl:55 sbp:1 med:Y out:<1 #0 + 18
-sex:F age:75 cho:281 smo:Y hdl:40 sbp:161 med:Y out:>27 
+sex:F age:75 cho:120 smo:N hdl:55 sbp:1 med:Y out:<1 #16 + 1
+sex:F age:75 cho:160 smo:N hdl:55 sbp:1 med:Y out:<1 #16 + 1
+sex:F age:75 cho:221 smo:N hdl:55 sbp:1 med:Y out:<1 #16 + 17
+sex:F age:75 cho:241 smo:N hdl:55 sbp:120 med:Y out:27 #0 + 20 + 1 + 3
+sex:F age:75 cho:281 smo:Y hdl:40 sbp:161 med:Y out:>30
