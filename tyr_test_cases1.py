@@ -169,73 +169,49 @@ sex:F age:75 cho:1 smo:N hdl:55 sbp:159 med:N out:8
 sex:F age:75 cho:1 smo:N hdl:55 sbp:160 med:Y out:11 
 
 # Indiviual Project
-#Female 20 year old SBP
+######## All Female are done even with Outputs ######
 sex:F age:20 cho:120 smo:N hdl:55 sbp:115 med:Y out:<1
 sex:F age:20 cho:160 smo:N hdl:55 sbp:120 med:Y out:<1
 sex:F age:20 cho:201 smo:N hdl:55 sbp:130 med:Y out:<1
 sex:F age:20 cho:241 smo:N hdl:55 sbp:159 med:Y out:<1
 sex:F age:20 cho:281 smo:N hdl:55 sbp:160 med:Y out:1
-
-#Female 40 years Old
-###### Where we Stopped
-sex:F age:40 cho:120 smo:N hdl:55 sbp:115 med:N out:<1 #0 + 1
-sex:F age:40 cho:160 smo:N hdl:55 sbp:120 med:N out:<1 #0 + 1
-sex:F age:40 cho:221 smo:N hdl:55 sbp:130 med:N out:<1 #0 + 1
-sex:F age:40 cho:241 smo:N hdl:55 sbp:159 med:N out:<1 #0 + 1
-sex:F age:40 cho:281 smo:N hdl:55 sbp:180 med:N out:<1 #0 + 1
-
-
-#Female 45 years Old
-
-sex:F age:45 cho:120 smo:N hdl:55 sbp:1 med:Y out:<1 #3 + 1
-sex:F age:45 cho:160 smo:N hdl:55 sbp:1 med:Y out:<1 #3 + 1
-sex:F age:45 cho:221 smo:N hdl:55 sbp:1 med:Y out:<1 #3 + 1
-sex:F age:45 cho:241 smo:N hdl:55 sbp:1 med:Y out:<1 #3 + 1
-sex:F age:45 cho:281 smo:N hdl:55 sbp:1 med:Y out:<1 #3 + 1
-
-#Female 50 years Old
-sex:F age:50 cho:120 smo:N hdl:55 sbp:1 med:Y out:<1 #6 + 1
-sex:F age:50 cho:160 smo:N hdl:55 sbp:1 med:Y out:<1 #6 + 1
-sex:F age:50 cho:221 smo:N hdl:55 sbp:1 med:Y out:<1 #6 + 1
-sex:F age:50 cho:241 smo:N hdl:55 sbp:1 med:Y out:<1 #6 + 1
-sex:F age:50 cho:281 smo:N hdl:55 sbp:1 med:Y out:<1 #6 + 1
-
-#Female 55 years Old
-
-sex:F age:55 cho:120 smo:N hdl:55 sbp:1 med:Y out:<1 #8 + 1
-sex:F age:55 cho:160 smo:N hdl:55 sbp:1 med:Y out:<1 #8 + 1
-sex:F age:55 cho:221 smo:N hdl:55 sbp:1 med:Y out:<1 #8 + 1
-sex:F age:55 cho:241 smo:N hdl:55 sbp:1 med:Y out:<1 #8 + 1
-sex:F age:55 cho:281 smo:N hdl:55 sbp:1 med:Y out:<1 #8 + 1
-
-
-#Female 60 years Old
-
-sex:F age:60 cho:120 smo:N hdl:55 sbp:1 med:Y out:<1 #10 + 1
-sex:F age:60 cho:160 smo:N hdl:55 sbp:1 med:Y out:<1 #10 + 1
-sex:F age:60 cho:221 smo:N hdl:55 sbp:1 med:Y out:<1 #10 + 1
-sex:F age:60 cho:241 smo:N hdl:55 sbp:1 med:Y out:<1 #10 + 1
-sex:F age:60 cho:281 smo:N hdl:55 sbp:1 med:Y out:<1 #10 + 1
-
-#Female 65 years Old
-
-sex:F age:65 cho:120 smo:N hdl:55 sbp:1 med:Y out:<1 #12 + 1
-sex:F age:65 cho:160 smo:N hdl:55 sbp:1 med:Y out:<1 #12 + 1
-sex:F age:65 cho:221 smo:N hdl:55 sbp:1 med:Y out:<1 #12 + 1
-sex:F age:65 cho:241 smo:N hdl:55 sbp:1 med:Y out:<1 #12 + 1
-sex:F age:65 cho:281 smo:N hdl:55 sbp:1 med:Y out:<1 #12 + 1
-
-#Female 70 years Old
-
-sex:F age:70 cho:120 smo:N hdl:55 sbp:1 med:Y out:<1 #14 + 1
-sex:F age:70 cho:160 smo:N hdl:55 sbp:1 med:Y out:<1 #14 + 1
-sex:F age:70 cho:221 smo:N hdl:55 sbp:1 med:Y out:<1 #14 + 1
-sex:F age:70 cho:241 smo:N hdl:55 sbp:1 med:Y out:<1 #14 + 1
-sex:F age:70 cho:281 smo:N hdl:55 sbp:1 med:Y out:<1 #14 + 1
-#Female 75 years Old
-sex:F age:75 cho:120 smo:N hdl:55 sbp:1 med:Y out:<1 #16 + 1
-sex:F age:75 cho:160 smo:N hdl:55 sbp:1 med:Y out:<1 #16 + 1
-sex:F age:75 cho:221 smo:N hdl:55 sbp:1 med:Y out:<1 #16 + 17
-####### These two are done
-sex:F age:75 cho:241 smo:N hdl:55 sbp:120 med:Y out:27 #0 + 20 + 1 + 3
+sex:F age:40 cho:120 smo:N hdl:55 sbp:115 med:N out:<1
+sex:F age:40 cho:160 smo:N hdl:55 sbp:120 med:N out:<1
+sex:F age:40 cho:221 smo:N hdl:55 sbp:130 med:N out:<1
+sex:F age:40 cho:241 smo:N hdl:55 sbp:159 med:N out:<1
+sex:F age:40 cho:281 smo:N hdl:55 sbp:180 med:N out:<1
+sex:F age:45 cho:120 smo:N hdl:55 sbp:1 med:Y out:<1
+sex:F age:45 cho:160 smo:N hdl:55 sbp:1 med:Y out:<1
+sex:F age:45 cho:221 smo:N hdl:55 sbp:1 med:Y out:<1
+sex:F age:45 cho:241 smo:N hdl:55 sbp:1 med:Y out:<1
+sex:F age:45 cho:281 smo:N hdl:55 sbp:1 med:Y out:<1
+sex:F age:50 cho:120 smo:N hdl:55 sbp:1 med:Y out:<1
+sex:F age:50 cho:160 smo:N hdl:55 sbp:1 med:Y out:<1
+sex:F age:50 cho:221 smo:N hdl:55 sbp:1 med:Y out:<1
+sex:F age:50 cho:241 smo:N hdl:55 sbp:1 med:Y out:<1
+sex:F age:50 cho:281 smo:N hdl:55 sbp:1 med:Y out:<1
+sex:F age:55 cho:120 smo:N hdl:55 sbp:1 med:Y out:1
+sex:F age:55 cho:160 smo:N hdl:55 sbp:1 med:Y out:1
+sex:F age:55 cho:221 smo:N hdl:55 sbp:1 med:Y out:1
+sex:F age:55 cho:241 smo:N hdl:55 sbp:1 med:Y out:1
+sex:F age:55 cho:281 smo:N hdl:45 sbp:1 med:Y out:1
+sex:F age:60 cho:120 smo:N hdl:55 sbp:1 med:Y out:1
+sex:F age:60 cho:160 smo:N hdl:55 sbp:1 med:Y out:1
+sex:F age:60 cho:221 smo:N hdl:55 sbp:1 med:Y out:1
+sex:F age:60 cho:241 smo:N hdl:45 sbp:1 med:Y out:1
+sex:F age:60 cho:281 smo:N hdl:55 sbp:1 med:Y out:1
+sex:F age:65 cho:120 smo:N hdl:55 sbp:1 med:Y out:2
+sex:F age:65 cho:160 smo:N hdl:55 sbp:1 med:Y out:2
+sex:F age:65 cho:221 smo:N hdl:65 sbp:1 med:Y out:2
+sex:F age:65 cho:241 smo:N hdl:45 sbp:1 med:Y out:2
+sex:F age:65 cho:281 smo:Y hdl:55 sbp:1 med:Y out:3
+sex:F age:70 cho:120 smo:N hdl:35 sbp:1 med:Y out:4
+sex:F age:70 cho:160 smo:N hdl:35 sbp:1 med:Y out:5
+sex:F age:70 cho:221 smo:N hdl:55 sbp:121 med:Y out:6
+sex:F age:70 cho:241 smo:N hdl:55 sbp:121 med:Y out:8
+sex:F age:70 cho:281 smo:N hdl:55 sbp:131 med:Y out:11
+sex:F age:75 cho:120 smo:N hdl:55 sbp:161 med:Y out:17
+sex:F age:75 cho:160 smo:N hdl:55 sbp:130 med:Y out:14
+sex:F age:75 cho:221 smo:N hdl:55 sbp:161 med:Y out:22
+sex:F age:75 cho:241 smo:N hdl:55 sbp:120 med:Y out:27
 sex:F age:75 cho:281 smo:Y hdl:40 sbp:161 med:Y out:>30
